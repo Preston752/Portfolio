@@ -39,17 +39,9 @@
       flex: 1;
       min-width: 300px;
       max-width: 640px;
-      display: flex;
-      flex-direction: column;
     }
     .project h3 {
       margin-bottom: 1rem;
-    }
-    .project-content {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      min-height: 360px;
     }
     video {
       max-width: 100%;
@@ -88,21 +80,17 @@
     <div class="projects-container">
       <div class="project">
         <h3>Robot Fish (Please turn down volume)</h3>
-        <div class="project-content">
-          <video width="640" controls>
-            <source src="entertainment-computing/robotFish.webm" type="video/webm">
-            Your browser does not support the video tag.
-          </video>
-        </div>
+        <video width="640" controls>
+          <source src="entertainment-computing/robotFish.webm" type="video/webm">
+          Your browser does not support the video tag.
+        </video>
       </div>
       
       <div class="project">
         <h3>AI Chess Engine</h3>
-        <div class="project-content">
-          <a href="https://preston752.github.io/AI-Chess-Engine/" class="chess-link" target="_blank">
-            Play Chess Engine
-          </a>
-        </div>
+        <a href="https://preston752.github.io/AI-Chess-Engine/" class="chess-link" target="_blank">
+          Play Chess Engine
+        </a>
       </div>
     </div>
   </main>
