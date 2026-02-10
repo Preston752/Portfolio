@@ -100,7 +100,6 @@
   </footer>
 </body>
 </html>
------->
 
 <!DOCTYPE html>
 <html lang="en">
@@ -221,6 +220,130 @@
   </main>
   <footer>
     &copy; 2026
+  </footer>
+</body>
+</html>
+--------->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Preston Jones | Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+    }
+    header {
+      background: #4CAF50;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    main {
+      padding: 4rem 2rem;
+      text-align: center;
+      position: relative;
+      padding-bottom: 5rem;
+    }
+    h2 {
+      margin-bottom: 3rem;
+    }
+    .projects-container {
+      display: flex;
+      justify-content: space-around;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    .project {
+      flex: 1;
+      min-width: 300px;
+      max-width: 640px;
+      display: flex;
+      flex-direction: column;
+    }
+    .project h3 {
+      margin-bottom: 1rem;
+    }
+    .project-content {
+      display: flex;
+      align-items: flex-start;
+      justify-content: center;
+      min-height: 360px;
+    }
+    video {
+      max-width: 100%;
+      height: auto;
+    }
+    .project-link {
+      display: inline-block;
+      background: #4CAF50;
+      color: white;
+      padding: 1rem 2rem;
+      border-radius: 5px;
+      text-decoration: none;
+      font-size: 1.1rem;
+      transition: background 0.3s;
+    }
+    .project-link:hover {
+      background: #45a049;
+    }
+    footer {
+      background: #333;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Preston Jones</h1>
+  </header>
+  <main>
+    <h2>Portfolio</h2>
+    <div class="projects-container">
+      <div class="project">
+        <h3>Robot Fish (Please turn down volume)</h3>
+        <div class="project-content">
+          <video width="640" controls>
+            <source src="entertainment-computing/robotFish.webm" type="video/webm">
+            Your browser does not support the video tag.
+          </video>
+        </div>
+      </div>
+      
+      <div class="project">
+        <h3>AI Chess Engine</h3>
+        <div class="project-content">
+          <a href="https://preston752.github.io/AI-Chess-Engine/" class="project-link" target="_blank">
+            Play Chess Engine
+          </a>
+        </div>
+      </div>
+
+      <div class="project">
+        <h3>RF Waveform Analyzer</h3>
+        <div class="project-content">
+          <a href="https://github.com/Preston752/rf-waveform-analyzer" class="project-link" target="_blank">
+            View on GitHub
+          </a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    &copy; 2025
   </footer>
 </body>
 </html>
